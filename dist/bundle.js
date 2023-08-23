@@ -252,18 +252,9 @@ define('modules/table',['require'],function (require) {
 })
 ;
 define('modules/app',['require'],function (require) {
-  //   console.log('require', require)
-  console.log('app load')
-
   return { app: 1 }
 })
 ;
-// requirejs.config({
-//   deps: ['modules/app'], // 指定主模块加载前的依赖模块
-//   callback: function () {
-//     // 所有模块加载完成后的回调函数
-//   }
-// })
 requirejs(['modules/header', 'modules/table','modules/app'], (Header, Table) => {
   
   let header = new Header({ el: '#header' })
