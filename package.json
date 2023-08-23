@@ -1,0 +1,13 @@
+{
+  "name": "browser-requirejs-example",
+  "version": "0.0.1",
+  "description": "在浏览器中学习使用requirejs ( Learning to use requirejs in a browser ) ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server .",
+    "build": "node ./requirejs-2.3.6/package/bin/r.js -o ./build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
