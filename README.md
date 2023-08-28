@@ -4,6 +4,6 @@
 
 Live View 在线预览
 
-[github.io/browser-requirejs-example](https://github262302.github.io/browser-requirejs-example)
+[github.io/example-browser-requirejs](https://github262302.github.io/example-browser-requirejs)
 
 示例代码 觉得有用 给个🌟 谢谢！
